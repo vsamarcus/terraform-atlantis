@@ -18,7 +18,7 @@ resource "azurerm_subnet" "this" {
 }
 
 resource "azurerm_storage_account" "this" {
-  name                = "storageaccount"
+  name                = "ieopa1f3jds29tm4nx"
   resource_group_name = azurerm_resource_group.this.name
   location            = azurerm_resource_group.this.location
 
