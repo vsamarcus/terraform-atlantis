@@ -24,7 +24,7 @@ resource "azurerm_storage_account" "this" {
 
   account_kind             = "StorageV2"
   account_tier             = "Premium"
-  account_replication_type = "GRS"
+  account_replication_type = "LRS"
   access_tier              = "Hot"
 
   tags = {
